@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+
+  movatic-prod:
+    container_name: movatic
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '8080:80'

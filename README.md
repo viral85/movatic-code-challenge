@@ -1,4 +1,11 @@
 ## movatic-code-challenge
+# To Start using Docker
+
+Prequisitory: Docker and docker-compose needs to be installed on system
+
+$ docker-compose up -d 
+
+Note: You can access code at localhost:8080 
 
 # Available Scripts
 
